@@ -1,0 +1,47 @@
+.landing-page-logo {
+	width: 260px;
+	height: 56px;
+	padding-left: 70px;
+	padding-top: 40px;
+}
+
+.landing-page-body {
+	font-family: "Times New Roman", Times, serif;
+	font-style: italic;
+	line-height: normal;
+	font-size: 4.8em;
+	position: absolute;
+	width: 1099px;
+	height: 554px;
+	left: 260px;
+	top: 80px;
+}
+
+.landing-page-vector1 {
+	position: absolute;
+	width: 215.88px;
+	height: 123.78px;
+	left: 606px;
+	top: 612px;
+	opacity: 0.95;
+}
+
+.landing-page-vector2 {
+	position: absolute;
+	width: 250px;
+	height: 200px;
+	left: 595px;
+	top: 570px;
+	transform: rotate(0deg);
+	opacity: 0.95;
+}
+
+.landing-page-apply-link {
+	position: absolute;
+	color: white;
+	font-family: "Arial", sans-serif;
+	font-weight: bolder;
+	font-size: 24px;
+	left: 650px;
+	top: 625px;
+}
