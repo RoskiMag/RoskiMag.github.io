@@ -1,4 +1,0 @@
-[build]
-base = "roskimag-website"
-publish = "roskimag-website/build"
-command = "npm run build"
