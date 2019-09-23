@@ -25,7 +25,7 @@ form {
 .input {
 	border-radius: 6px;
 	border: none;
-	padding: 4px;
+	padding: 10px;
 }
 
 .submit {
@@ -34,11 +34,10 @@ form {
 	color: white;
 	text-align: center;
 	text-decoration: none;
-	display: inline-block;
 	font-size: 16px;
-	height: 32px;
-	width: 80px;
-	border-radius: 4px;
+	height: 40px;
+	width: 90px;
+	border-radius: 6px;
 }
 
 .disclaimer {
