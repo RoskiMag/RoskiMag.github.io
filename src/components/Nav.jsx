@@ -21,9 +21,6 @@ export default class Nav extends Component {
         <a href="https://roskimag.home.blog">
         <p className="blog-link">BLOG</p>
         </a>
-        <a href="https://www.stickermule.com/">
-        <img src={stickerMuleLogo} alt="stickerMuleLogo" className="sticker-mule-logo" />
-        </a>
       </div>
     )
   }
