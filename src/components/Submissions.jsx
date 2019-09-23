@@ -50,7 +50,7 @@ export default class Submissions extends Component {
 					<input type="text" name="link" placeholder="link to hosted files (ensure permissions are public)" spellCheck="false" value={this.state.link} onChange={this.handleChange} className="input" required />
 					<textarea name="artistStatement" value={this.state.artistStatement} onChange={this.handleChange} placeholder="artist statement" spellCheck="false" className="input" required />
 					<input className ="submit" type="submit" value="submit" />
-					<p className="disclaimer">By checking this box you are agreeing to Roski Mag’s terms and conditions. By submitting your work, you are agreeing to allow Roski Mag to potentially publish it on its online platform and printed magazine.</p>
+					<p className="disclaimer">By clicking "submit" you are agreeing to Roski Mag’s terms and conditions. By submitting your work, you are agreeing to allow Roski Mag to potentially publish it on its online platform and printed magazine.</p>
 				</form>
 			</div>
 		)

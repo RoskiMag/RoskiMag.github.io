@@ -13,10 +13,6 @@ const Home = () => {
 				showcase student art and <br />
 				design work.
 			</p>
-
-			<div className="home-apply">
-				<a href="https://roskimag.typeform.com/to/iNTsO3"><img src={blob} alt="blob" className="home-vector1" /></a>
-			</div>
 		</div>
 	);
 }
