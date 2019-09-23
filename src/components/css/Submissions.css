@@ -15,11 +15,17 @@ body {
 form {
 	display: grid;
 	grid-template-columns: 325px 325px;
-	grid-column-gap: 100px;	
+	grid-column-gap: 100px;
 	grid-row-gap: 20px;
 	justify-content: center;
 	align-items: center;
-	margin-top: 14%
+	margin-top: 14%;
+}
+
+.input {
+	border-radius: 6px;
+	border: none;
+	padding: 4px;
 }
 
 .submit {
@@ -32,6 +38,7 @@ form {
 	font-size: 16px;
 	height: 32px;
 	width: 80px;
+	border-radius: 4px;
 }
 
 .disclaimer {
