@@ -7,6 +7,7 @@ import Submissions from './components/Submissions';
 import ViewSubmissions from './components/ViewSubmissions';
 import Content from './components/Content';
 import Archive from './components/Archive';
+import SocialFooter from './components/Social_Footer';
 
 import Mag006 from './components/PastMags/Mag006';
 import Mag005 from './components/PastMags/Mag005';
@@ -25,7 +26,7 @@ class App extends Component {
       <div>
         <HashRouter basename={process.env.PUBLIC_URL}>
             <div>
-              <Nav />
+              <Nav/>
               <Route path="/" component={Home} exact />
               <Route path="/submissions" component={Submissions} exact />
               <Route path="/view-submissions" component={ViewSubmissions} exact />
@@ -37,6 +38,7 @@ class App extends Component {
               <Route path="/archive/003" component={Mag003} exact />
               <Route path="/archive/002" component={Mag002} exact />
               <Route path="/archive/001" component={Mag001} exact />
+              <SocialFooter/>
             </div>
           </HashRouter>
       </div>
