@@ -9,7 +9,7 @@ html {
 }
 
 body {
-	background-color: #F0F0F0
+	background-color: #F0F0F0;
 }
 
 .home-container {
@@ -29,7 +29,7 @@ body {
 }
 
 .home-apply {
-	display: grid;	
+	display: grid;
 	justify-content: center;
 	align-items: center;
 	margin-left: auto;
@@ -42,4 +42,3 @@ body {
 	margin-top: 90px;
 	margin-left: 0px;
 }
-
