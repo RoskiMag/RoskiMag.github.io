@@ -22,6 +22,9 @@ body {
 	body form {
 		grid-template-columns: 1fr;
 	}
+	body .submissions-header p {
+		width: 100%;
+	}
 }
 
 form {
@@ -31,11 +34,11 @@ form {
 	grid-row-gap: 10px;
 	justify-content: center;
 	align-items: center;
-	margin-top: 14%;
 }
 
 
 .input {
+	background-color: white;
 	border-radius: 6px;
 	border: none;
 	padding: 10px;
@@ -60,7 +63,25 @@ form {
 }
 
 .container {
+	margin: auto;
 	width: 50%;
-	margin: 0 auto;
 	padding-top: 80px;
+}
+
+.form-container {
+}
+
+.submissions-header {
+	font-family: "Arial", sans-serif;
+	text-align: center;
+	font-size: 38px;
+	font-weight: bold;
+}
+
+.submissions-header p {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 14px;
+	text-align: left;
+	font-weight: normal;
+	margin-bottom: 20px;
 }

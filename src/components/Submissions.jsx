@@ -41,21 +41,34 @@ export default class Submissions extends Component {
 	render() {
 		return (
 			<div class="container">
+			<div class="submissions-header">
+					SUMBIT A PIECE
+					<p>Please fill out the form to submit ONE piece to potentially be featured in an issue of Roski Mag. Email us at <b>roskimag@gmail.com</b> if you have any questions or concerns.</p>
+			</div>
 				<div>
+				<div class ="form-container">
 					<form onSubmit={this.handleSubmit}>
-						<input type="text" name="name" placeholder="name" spellCheck="false" value={this.state.name} onChange={this.handleChange} className="input" required />
-						<input type="text" name="title" placeholder="title" spellCheck="false" value={this.state.title} onChange={this.handleChange} className="input" required />
-						<input type="text" name="email" placeholder="email" spellCheck="false" value={this.state.email} onChange={this.handleChange} className="input" required />
+						<input type="text" name="name" placeholder="your name" spellCheck="false" value={this.state.name} onChange={this.handleChange} className="input" required />
+						<input type="text" name="title" placeholder="title of piece" spellCheck="false" value={this.state.title} onChange={this.handleChange} className="input" required />
+						<input type="text" name="email" placeholder="usc email" spellCheck="false" value={this.state.email} onChange={this.handleChange} className="input" required />
 						<input type="text" name="medium" placeholder="medium" spellCheck="false" value={this.state.medium} onChange={this.handleChange} className="input" required />
-						<input type="text" name="year" placeholder="year" spellCheck="false" value={this.state.year} onChange={this.handleChange} className="input" required />
-						<input type="text" name="dateCompleted" placeholder="date completed (mm/dd/yy)" spellCheck="false" value={this.state.dateCompleted} onChange={this.handleChange} className="input" required />
+
+						<select name="year" selected="year" value={this.state.year} onChange={this.handleChange} className="input" required>
+    					<option value="freshman">freshman</option>
+    					<option value="sophomore">sophomore</option>
+    					<option value="junior">junior</option>
+    					<option value="senior">senior</option>
+  					</select>
+
+						<input type="text" name="dateCompleted" placeholder="year piece was completed" spellCheck="false" value={this.state.dateCompleted} onChange={this.handleChange} className="input" required />
 						<input type="text" name="school" placeholder="school" spellCheck="false" value={this.state.school} onChange={this.handleChange} className="input" required />
-						<input type="text" name="websiteLink" placeholder="website link" spellCheck="false" value={this.state.websiteLink} onChange={this.handleChange} className="input" required />
-						<input type="text" name="link" placeholder="link to hosted files (ensure permissions are public)" spellCheck="false" value={this.state.link} onChange={this.handleChange} className="input" required />
-						<input type="text" name="artistStatement" value={this.state.artistStatement} onChange={this.handleChange} placeholder="artist statement" spellCheck="false" className="input" required />
+						<input type="text" name="link" placeholder="link to hosted file (ensure permissions are public)" spellCheck="false" value={this.state.link} onChange={this.handleChange} className="input" required />
+						<input type="text" name="websiteLink" placeholder="portfolio link (optional)" spellCheck="false" value={this.state.websiteLink} onChange={this.handleChange} className="input" />
+						<input type="text" name="artistStatement" value={this.state.artistStatement} onChange={this.handleChange} placeholder="artist statement/piece description" spellCheck="false" className="input" required />
 						<input className ="submit" type="submit" value="submit" />
 						<p className="disclaimer">By clicking "submit" you are agreeing to Roski Mag’s terms and conditions. By submitting your work, you are agreeing to allow Roski Mag to potentially publish it on its online platform and printed magazine.</p>
 					</form>
+				</div>
 				</div>
 			</div>
 		)
