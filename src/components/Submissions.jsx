@@ -31,6 +31,7 @@ export default class Submissions extends Component {
 			this.setState({
 				name: '', title: '', email: '', medium: '', year: '', dateCompleted: '', school: '', websiteLink: '', artistStatement: '', link: '', comments: '', currDate: today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate()
 			});
+			alert("Thanks for submitting!");
 		})
 		.catch((error) => {
 			console.error("Error adding document: ", error);
