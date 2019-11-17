@@ -66,7 +66,7 @@ export default class Submissions extends Component {
 						<input type="text" name="websiteLink" placeholder="portfolio link (optional)" spellCheck="false" value={this.state.websiteLink} onChange={this.handleChange} className="input" />
 						<input type="text" name="artistStatement" value={this.state.artistStatement} onChange={this.handleChange} placeholder="artist statement/piece description" spellCheck="false" className="input" required />
 						<input className ="submit" type="submit" value="submit" />
-						<p className="disclaimer">By clicking "submit" you are agreeing to Roski Mag’s terms and conditions. By submitting your work, you are agreeing to allow Roski Mag to potentially publish it on its online platform and printed magazine.</p>
+						<p className="disclaimer">By clicking the "submit" button, you are agreeing to allow Roski Mag to potentially publish your work on its online platform(s) and/or printed magazine. Roski Mag is free to select the pieces that will be showcased (unless otherwise stated).</p>
 					</form>
 				</div>
 				</div>
