@@ -6,7 +6,7 @@ import firebase from './Firebase';
 export default class Submissions extends Component {
 	constructor(props) {
 		super(props);
-		this.ref = firebase.firestore().collection('submissions-sp17');
+		this.ref = firebase.firestore().collection('submissions-sp20');
 		this.state = {
 			name: '', title: '', email: '', medium: '', year: '', dateCompleted: '', school: '', websiteLink: '', artistStatement: '', link: ''
 		};
@@ -24,12 +24,10 @@ export default class Submissions extends Component {
 	handleSubmit(event) {
 		event.preventDefault();
 
-		var today = new Date();
-
-		const { name, title, email, medium, year, dateCompleted, school, websiteLink, artistStatement, link, comments } = this.state;
-		this.ref.add({ name, title, email, medium, year, dateCompleted, school, websiteLink, artistStatement, link, comments }).then((docRef) => {
+		const { name, title, email, medium, year, dateCompleted, school, websiteLink, artistStatement, link } = this.state;
+		this.ref.add({ name, title, email, medium, year, dateCompleted, school, websiteLink, artistStatement, link }).then((docRef) => {
 			this.setState({
-				name: '', title: '', email: '', medium: '', year: '', dateCompleted: '', school: '', websiteLink: '', artistStatement: '', link: '', comments: '', currDate: today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate()
+				name: '', title: '', email: '', medium: '', year: '', dateCompleted: '', school: '', websiteLink: '', artistStatement: '', link: ''
 			});
 			alert("Thanks for submitting!");
 		})
