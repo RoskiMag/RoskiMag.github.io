@@ -19,7 +19,7 @@ export default class Nav extends Component {
 
           <li><Link to="/submissions">SUBMISSIONS</Link></li>
 
-          <li><a href="https://roskimag.home.blog">BLOG</a></li>
+          <li><a href="https://roskimag.home.blog" target="_blank">BLOG</a></li>
 
         </ul>
 

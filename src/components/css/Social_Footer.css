@@ -6,7 +6,7 @@ body {
 
 .footer-container {
     width: 100%;
-    position: absolute;
+    position: fixed;
     right: 0;
     bottom: 20px;
     left: 0;
