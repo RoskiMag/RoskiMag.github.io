@@ -52,6 +52,8 @@ body {
 /* large screen size */
 @media screen and (min-width: 48em) {
 	.home-body {
-		font-size: 6em;
+		font-size: 5.7em;
+		padding-left: 1.8em;
+		padding-right: 1.8em;
 	}
 }
