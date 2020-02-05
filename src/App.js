@@ -9,6 +9,7 @@ import Content from './components/Content';
 import Archive from './components/Archive';
 import SocialFooter from './components/Social_Footer';
 
+import Mag008 from './components/PastMags/Mag008';
 import Mag007 from './components/PastMags/Mag007';
 import Mag006 from './components/PastMags/Mag006';
 import Mag005 from './components/PastMags/Mag005';
@@ -33,6 +34,7 @@ class App extends Component {
               <Route path="/view-submissions" component={ViewSubmissions} exact />
               <Route path="/content" component={Content} exact />
               <Route path="/archive" component={Archive} exact />
+              <Route path="/archive/008" component={Mag008} exact />
               <Route path="/archive/007" component={Mag007} exact />
               <Route path="/archive/006" component={Mag006} exact />
               <Route path="/archive/005" component={Mag005} exact />

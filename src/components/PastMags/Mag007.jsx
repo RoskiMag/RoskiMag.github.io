@@ -47,6 +47,7 @@ export default class Mag007 extends Component {
         <img src={img16} className="image"></img>
         <img src={img17} className="image"></img>
         <img src={img18} className="image"></img>
+        <img src={img19} className="image"></img>
         <img src={img20} className="image"></img>
         <img src={img21} className="image"></img>
         <img src={img22} className="image"></img>
