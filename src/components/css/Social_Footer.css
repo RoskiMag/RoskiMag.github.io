@@ -1,5 +1,5 @@
 body {
-    background-color: #F0F0F0;
+    background-color: #FFF4F4;
     margin: 0;
     min-height: 100%;
 }
@@ -7,10 +7,9 @@ body {
 .footer-container {
     width: 100%;
     position: fixed;
-    right: 0;
-    bottom: 20px;
-    left: 0;
     text-align: center;
+    height: 40px;
+    bottom: 5px;
 }
 
 .icon {

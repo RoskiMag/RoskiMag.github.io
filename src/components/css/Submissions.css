@@ -17,7 +17,6 @@ body {
 		width: 100%;
 		padding-left: 10px;
 		padding-right: 10px;
-		padding-top: 60px;
 	}
 	body form {
 		grid-template-columns: 1fr;
@@ -65,7 +64,6 @@ form {
 .container {
 	margin: auto;
 	width: 50%;
-	padding-top: 80px;
 }
 
 .form-container {
@@ -76,6 +74,8 @@ form {
 	text-align: center;
 	font-size: 38px;
 	font-weight: bold;
+	padding-top: 80px;
+	background: transparent;
 }
 
 .submissions-header p {

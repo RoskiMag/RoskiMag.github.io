@@ -9,8 +9,8 @@
     align-content: center;
     width: 100%;
     grid-template-columns: repeat(7, auto);
-    grid-gap:20px;
-    padding-top: 24%;
+    grid-gap: 20px;
+    padding-top: 15%;
 }
 
 a:link, a:visited {

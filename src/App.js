@@ -31,7 +31,6 @@ class App extends Component {
               <Nav/>
               <Route path="/" component={Home} exact />
               <Route path="/submissions" component={Submissions} exact />
-              <Route path="/view-submissions" component={ViewSubmissions} exact />
               <Route path="/content" component={Content} exact />
               <Route path="/archive" component={Archive} exact />
               <Route path="/archive/008" component={Mag008} exact />

@@ -11,6 +11,7 @@ export default class Nav extends Component {
         <Link to="/">
         <img src={logo} alt="logo" className="logo" />
         </Link>
+
         <input class="menu-btn" type="checkbox" id="menu-btn" />
         <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
 
@@ -20,7 +21,6 @@ export default class Nav extends Component {
           <li><Link to="/submissions">SUBMISSIONS</Link></li>
 
           <li><a href="https://roskimag.home.blog" target="_blank">BLOG</a></li>
-
         </ul>
 
       </div>
