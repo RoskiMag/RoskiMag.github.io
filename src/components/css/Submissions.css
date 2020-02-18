@@ -24,6 +24,9 @@ body {
 	body .submissions-header p {
 		width: 100%;
 	}
+	body .submissions-header {
+		padding-top: 0px;
+	}
 }
 
 form {
@@ -74,8 +77,8 @@ form {
 	text-align: center;
 	font-size: 38px;
 	font-weight: bold;
-	padding-top: 80px;
 	background: transparent;
+	padding-top: 30px;
 }
 
 .submissions-header p {

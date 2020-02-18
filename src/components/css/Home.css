@@ -24,6 +24,7 @@ body {
 	font-family: "Times New Roman", Times, serif;
 	font-style: italic;
 	line-height: normal;
+	font-size: 2.3em;
 }
 
 .home-apply {
@@ -44,7 +45,7 @@ body {
 @media screen and (min-width: 374px ) {
 	.home-body {
 		padding-top: 0em;
-		font-size: 3.2em;
+		font-size: 3em;
 	}
 }
 
@@ -52,7 +53,7 @@ body {
 @media screen and (min-width: 424px ) {
 	.home-body {
 		padding-top: 0em;
-		font-size: 3.5em;
+		font-size: 3.2em;
 	}
 }
 
