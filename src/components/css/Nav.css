@@ -1,24 +1,75 @@
 /* 48em = 768px */
 
 body .header {
+  	width: 320px;
+    padding-top: 0px;
+    padding-left: 0px;
     position: fixed;
+}
+
+/* this is for small phone screen */
+@media screen and (min-width: 320px) {
+  body .header {
+    width: 320px;
+  }
+
+  .header .link-padding {
+    width: 320px;
+  }
+}
+
+/* this is for medium phone screen */
+@media screen and (min-width: 375px) {
+  body .header {
+    width: 375px;
+  }
+
+  .header .link-padding {
+    width: 375px;
+  }
+}
+
+/* this is for large phone screen */
+@media screen and (min-width: 425px) {
+  body .header {
+    width: 425px;
+  }
+
+  .header .link-padding {
+    width: 425px;
+  }
 }
 
 /* this is for large screen (laptop) */
 @media screen and (min-width: 426px) {
   body .header {
-    padding-top: 58px;
-    padding-left: 63px;
-    padding-right: 50px;
-    padding-bottom: 70px;
+  }
+
+  .header .logo {
+    float: left;
+    width: 259px;
+  }
+
+  .header ul {
+    position: fixed;
+    right: 20px;
+    padding-top: 4px;
+    background-color: none;
+
+  }
+
+  .header .link-padding {
+    float: right;
+    padding-right: 30px;
+    padding-left: 20px;
+    width: auto;
   }
 }
 
 .header ul {
-  position: fixed;
-  right: 20px;
   list-style: none;
   overflow: hidden;
+  background-color: #FFF4F4;
 }
 
 .header li a {
@@ -35,13 +86,15 @@ body .header {
 
 .header .logo {
   float: left;
-  width: 259px;
+  width: 118px;
+  padding-top: 29px;
+  padding-left: 26px;
 }
 
 .header .link-padding {
   float: right;
-  padding-right: 30px;
-  padding-left: 20px;
+  padding: 20px;
+  padding-left: 26px;
 }
 
 /* EVERYTHING BELOW THIS POINT IS FOR THE RESPONSIVE HAMBURGER MENU */
@@ -59,9 +112,9 @@ body .header {
 
 .header .menu-icon {
   cursor: pointer;
-  display: inline-block;
   float: right;
-  padding: 28px 20px;
+  padding-top: 34px;
+  padding-right: 29px;
   position: relative;
   user-select: none;
 }
@@ -128,10 +181,6 @@ body .header {
   .header .logo {
     width: 250px;
   }
-  /*
-  .header li a {
-    padding: 50px;
-  }*/
   .header .menu {
     clear: none;
     float: right;

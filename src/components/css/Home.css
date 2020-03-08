@@ -21,7 +21,7 @@ body {
 	font-family: "Times New Roman", Times, serif;
 	font-style: italic;
 	line-height: normal;
-	font-size: 2.3em;
+	font-size: 53px;
 }
 
 .home-apply {
@@ -38,29 +38,50 @@ body {
 	margin-left: 0px;
 }
 
+/* small phone screen size */
+@media screen and (min-width: 320px ) {
+	.home-container {
+		padding-top: 113px;
+		padding-left: 37px;
+		padding-right: 37px;
+		width: 320px;
+	}
+	.home-intro {
+		font-size: 41px;
+	}
+}
+
 /* medium phone screen size */
 @media screen and (min-width: 374px ) {
-	.home-body {
-		padding-top: 0em;
-		font-size: 3em;
+	.home-container {
+		padding-top: 113px;
+		padding-left: 37px;
+		padding-right: 37px;
+		width: 375px;
+	}
+	.home-intro {
+		font-size: 53px;
 	}
 }
 
 /* large phone screen size */
 @media screen and (min-width: 424px ) {
-	.home-body {
-		padding-top: 0em;
-		font-size: 3.2em;
+	.home-intro {
+		font-size: 53px;
+	}
+
+	.home-container {
+		width: 425px;
 	}
 }
 
 /* medium/tablet screen size */
 @media screen and (min-width: 766px ) {
-	.home-body {
-		padding-top: 0em;
-		font-size: 4.2em;
-		padding-left: 1em;
-		padding-right: 1em;
+	.home-container {
+		width: 767px;
+	}
+	.home-intro {
+		font-size: 4em;
 	}
 }
 
