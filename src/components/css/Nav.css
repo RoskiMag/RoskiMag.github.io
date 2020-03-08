@@ -1,19 +1,22 @@
 /* 48em = 768px */
 
 body .header {
-  padding: 20px;
+    position: fixed;
 }
 
+/* this is for large screen (laptop) */
 @media screen and (min-width: 426px) {
   body .header {
-    padding-top: 50px;
-    padding-left: 50px;
+    padding-top: 58px;
+    padding-left: 63px;
     padding-right: 50px;
     padding-bottom: 70px;
   }
 }
 
 .header ul {
+  position: fixed;
+  right: 20px;
   list-style: none;
   overflow: hidden;
 }
@@ -21,9 +24,8 @@ body .header {
 .header li a {
   font-family: "Arial", sans-serif;
   font-weight: bolder;
-  font-size: 24px;
+  font-size: 21px;
   display: block;
-  padding: 20px 20px;
   text-decoration: none;
 }
 
@@ -33,8 +35,13 @@ body .header {
 
 .header .logo {
   float: left;
-  width: 230px;
-  text-decoration: none;
+  width: 259px;
+}
+
+.header .link-padding {
+  float: right;
+  padding-right: 30px;
+  padding-left: 20px;
 }
 
 /* EVERYTHING BELOW THIS POINT IS FOR THE RESPONSIVE HAMBURGER MENU */
@@ -119,7 +126,7 @@ body .header {
     float: left;
   }
   .header .logo {
-    width: 280px;
+    width: 250px;
   }
   /*
   .header li a {

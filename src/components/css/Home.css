@@ -13,14 +13,11 @@ body {
 }
 
 .home-container {
-	vertical-align: middle;
-	padding-left: 50px;
-	padding-right: 50px;
+	height: 100vh;
+	width: 100vh;
 }
 
-.home-body {
-	padding-top: 1em;
-	padding-bottom: .5em;
+.home-intro {
 	font-family: "Times New Roman", Times, serif;
 	font-style: italic;
 	line-height: normal;
@@ -69,10 +66,14 @@ body {
 
 /* large screen size */
 @media screen and (min-width: 769px) {
-	.home-body {
-		padding-top: .5em;
-		font-size: 6.5em;
-		padding-left: 1.8em;
-		padding-right: 1.8em;
+	.home-intro {
+		width: 555px;
+		font-size: 48px;
+		line-height: 55px;
+		text-align: center;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin: -150px 0 0 -277px;
 	}
 }

@@ -40,7 +40,7 @@ export default class Submissions extends Component {
 		return (
 			<div class="container">
 			<div class="submissions-header">
-					SUMBIT A PIECE
+					SUBMIT A PIECE
 					<p>Please fill out the form to submit ONE piece to potentially be featured in an issue of Roski Mag. Email us at <b>roskimag@gmail.com</b> if you have any questions or concerns.</p>
 			</div>
 				<div>

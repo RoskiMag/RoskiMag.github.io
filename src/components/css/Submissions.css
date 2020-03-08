@@ -65,6 +65,7 @@ form {
 }
 
 .container {
+	padding-top: 120px;
 	margin: auto;
 	width: 50%;
 }

@@ -16,11 +16,17 @@ export default class Nav extends Component {
         <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
 
         <ul class="menu">
-          <li><Link to="/archive">MAGS</Link></li>
+          <li>
+            <div className = "link-padding"><Link to="/archive">MAGS</Link></div>
+          </li>
 
-          <li><Link to="/submissions">SUBMISSIONS</Link></li>
+          <li>
+           <div className = "link-padding"><Link to="/submissions">SUBMISSIONS</Link></div>
+          </li>
 
-          <li><a href="https://roskimag.home.blog" target="_blank">BLOG</a></li>
+          <li>
+            <div className = "link-padding"><a href="https://roskimag.home.blog" target="_blank">BLOG</a></div>
+          </li>
         </ul>
 
       </div>
