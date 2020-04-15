@@ -7,74 +7,9 @@ body .header {
     position: fixed;
 }
 
-/* this is for small phone screen */
-
-/*
-@media screen and (max-width: 320px) {
-  body .header {
-    width: 320px;
-  }
-
-  .header .link-padding {
-    width: 320px;
-  }
-}*/
-
-/* this is for medium phone screen */
-/*
-@media screen and (max-width: 375px) {
-  body .header {
-    width: 375px;
-  }
-
-  .header .link-padding {
-    width: 375px;
-  }
-}*/
-
-/* this is for large phone screen */
-/*
-@media screen and (max-width: 425px) {
-  body .header {
-    width: 425px;
-  }
-
-  .header .link-padding {
-    width: 425px;
-  }
-}*/
-
-/* this is for large screen (laptop) */
-@media screen and (min-width: 426px) {
-  body .header {
-    width: 100%
-  }
-
-  .header .logo {
-    float: left;
-    width: 259px;
-  }
-
-  .header ul {
-    position: fixed;
-    right: 20px;
-    padding-top: 4px;
-    background-color: none;
-
-  }
-
-  .header .link-padding {
-    float: right;
-    padding-right: 30px;
-    padding-left: 20px;
-    width: auto;
-  }
-}
-
 .header ul {
   list-style: none;
   overflow: hidden;
-  background-color: #FFF4F4;
 }
 
 .header li a {
@@ -83,6 +18,7 @@ body .header {
   font-size: 21px;
   display: block;
   text-decoration: none;
+  float: right;
 }
 
 .header li a:hover {
@@ -96,10 +32,11 @@ body .header {
   padding-left: 26px;
 }
 
-.header .link-padding {
-  float: right;
-  padding: 20px;
-  padding-left: 26px;
+@media screen and (max-width: 760px) {
+  .header .link-padding {
+    padding: 20px;
+    width: 100%;
+  }
 }
 
 /* EVERYTHING BELOW THIS POINT IS FOR THE RESPONSIVE HAMBURGER MENU */
@@ -119,7 +56,7 @@ body .header {
   cursor: pointer;
   float: right;
   padding-top: 34px;
-  padding-right: 29px;
+  padding-right: 34px;
   position: relative;
   user-select: none;
 }
@@ -179,7 +116,14 @@ body .header {
   top: 0;
 }
 
-@media screen and (min-width: 49em) {
+@media screen and (min-width: 760px) {
+  .header ul {
+    position: fixed;
+    right: 20px;
+    padding-top: 4px;
+    background-color: none;
+  }
+
   .header li {
     float: left;
   }
@@ -193,5 +137,11 @@ body .header {
   }
   .header .menu-icon {
     display: none;
+  }
+
+  .header .link-padding {
+    float: right;
+    padding: 20px;
+    padding-left: 26px;
   }
 }

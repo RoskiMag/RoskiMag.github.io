@@ -8,10 +8,6 @@ html {
 	box-sizing: inherit;
 }
 
-body {
-	background-color: #F0F0F0
-}
-
 @media only screen and (max-width: 600px) {
 	body .container {
 		width: 100%;
@@ -27,6 +23,7 @@ body {
 	}
 	body .submissions-header {
 		padding-top: 0px;
+		font-size: 24px;
 	}
 }
 

@@ -1,0 +1,75 @@
+/* global styling */
+.issue-header {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.issue-theme {
+  font-family: Times New Roman;
+  font-style: italic;
+  font-weight: normal;
+}
+
+/* for smaller screens */
+@media only screen and (max-width: 800px) {
+  .mag-iframe {
+    width: 100%;
+    height: 100%;
+  }
+
+  .issue9-container {
+    padding: 25px;
+    position: absolute;
+    top: 89.75px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .issue-header {
+    font-size: 14px;
+  }
+
+  .issue-theme {
+    font-size: 38px;
+    padding-bottom: 27px;
+  }
+}
+
+/* this is for large screen (laptop) */
+@media screen and (min-width: 800px) {
+  .mag-iframe {
+    width: 710px;
+    height: 561px;
+    margin-top: 275px;
+  }
+
+  .issue9-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .issue-header {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+
+    position: absolute;
+    left: 79px;
+    top: 156px;
+  }
+
+  .issue-theme {
+    font-size: 52px;
+    line-height: 60px;
+
+    position: absolute;
+    left: 79px;
+    top: 176px;
+  }
+}

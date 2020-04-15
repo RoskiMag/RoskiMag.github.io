@@ -12,16 +12,14 @@ body {
 	background-color: #FFF4F4;
 }
 
-.home-container {
-	height: 100vh;
-	width: 100vh;
+body .home-container {
+	width: 100%;
 }
 
 .home-intro {
 	font-family: "Times New Roman", Times, serif;
 	font-style: italic;
 	line-height: normal;
-	font-size: 53px;
 }
 
 .home-apply {
@@ -38,55 +36,22 @@ body {
 	margin-left: 0px;
 }
 
-/* small phone screen size */
-@media screen and (min-width: 320px ) {
+/* phone screen size */
+@media screen and (min-width: 0px ) {
 	.home-container {
-		padding-top: 113px;
+		padding-top: 263px;
 		padding-left: 37px;
-		padding-right: 37px;
-		width: 320px;
+		padding-right: 43px;
 	}
 	.home-intro {
-		font-size: 41px;
-	}
-}
-
-/* medium phone screen size */
-@media screen and (min-width: 374px ) {
-	.home-container {
-		padding-top: 113px;
-		padding-left: 37px;
-		padding-right: 37px;
-		width: 375px;
-	}
-	.home-intro {
-		font-size: 53px;
-	}
-}
-
-/* large phone screen size */
-@media screen and (min-width: 424px ) {
-	.home-intro {
-		font-size: 53px;
-	}
-
-	.home-container {
-		width: 425px;
-	}
-}
-
-/* medium/tablet screen size */
-@media screen and (min-width: 766px ) {
-	.home-container {
-		width: 767px;
-	}
-	.home-intro {
-		font-size: 4em;
+		font-size: 31px;
+		line-height: 36px;
+		text-align: center;
 	}
 }
 
 /* large screen size */
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 600px) {
 	.home-intro {
 		width: 555px;
 		font-size: 48px;
@@ -97,4 +62,17 @@ body {
 		left: 50%;
 		margin: -150px 0 0 -277px;
 	}
+}
+
+.footer-container {
+    width: 100%;
+    position: absolute ;
+    text-align: center;
+    height: 40px;
+    bottom: 5px;
+}
+
+.icon {
+    padding: 5px;
+    width: 40px;
 }

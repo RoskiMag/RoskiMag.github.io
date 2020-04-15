@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import { Router, Route, HashRouter } from 'react-router-dom';
 
+import './components/css/style.css'
+
 import Nav from './components/Nav';
 import Home from './components/Home';
 import Submissions from './components/Submissions';
 import ViewSubmissions from './components/ViewSubmissions';
 import Archive from './components/Archive';
-import SocialFooter from './components/Social_Footer';
 
 import Mag009 from './components/PastMags/Mag009';
 import Mag008 from './components/PastMags/Mag008';
@@ -41,7 +42,6 @@ class App extends Component {
               <Route path="/archive/003" component={Mag003} exact />
               <Route path="/archive/002" component={Mag002} exact />
               <Route path="/archive/001" component={Mag001} exact />
-              <SocialFooter/>
             </div>
           </HashRouter>
       </div>
