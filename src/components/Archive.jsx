@@ -14,6 +14,7 @@ export default class Archive extends Component {
   render() {
     return (
       <div className="mag-container">
+        <Link to="/issue_9"><a className="mag">009</a></Link>
         <Link to="/archive/008"><a className="mag">008</a></Link>
         <Link to="/archive/007"><a className="mag">007</a></Link>
         <Link to="/archive/006"><a className="mag">006</a></Link>

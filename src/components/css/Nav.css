@@ -1,14 +1,16 @@
 /* 48em = 768px */
 
 body .header {
-  	width: 320px;
+  	width: 100%;
     padding-top: 0px;
     padding-left: 0px;
     position: fixed;
 }
 
 /* this is for small phone screen */
-@media screen and (min-width: 320px) {
+
+/*
+@media screen and (max-width: 320px) {
   body .header {
     width: 320px;
   }
@@ -16,10 +18,11 @@ body .header {
   .header .link-padding {
     width: 320px;
   }
-}
+}*/
 
 /* this is for medium phone screen */
-@media screen and (min-width: 375px) {
+/*
+@media screen and (max-width: 375px) {
   body .header {
     width: 375px;
   }
@@ -27,10 +30,11 @@ body .header {
   .header .link-padding {
     width: 375px;
   }
-}
+}*/
 
 /* this is for large phone screen */
-@media screen and (min-width: 425px) {
+/*
+@media screen and (max-width: 425px) {
   body .header {
     width: 425px;
   }
@@ -38,11 +42,12 @@ body .header {
   .header .link-padding {
     width: 425px;
   }
-}
+}*/
 
 /* this is for large screen (laptop) */
 @media screen and (min-width: 426px) {
   body .header {
+    width: 100%
   }
 
   .header .logo {
