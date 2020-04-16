@@ -25,11 +25,11 @@ function initializeReactGA() {
     ReactGA.pageview('/');
     ReactGA.pageview(window.location.pathname + window.location.search);
     ReactGA.pageview('/#/issue_9');
-
 }
 
 class App extends Component {
   constructor(props) {
+    initializeReactGA();
     super(props);
   }
 
