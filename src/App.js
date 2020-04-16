@@ -22,7 +22,10 @@ import Mag001 from './components/PastMags/Mag001';
 
 function initializeReactGA() {
     ReactGA.initialize('UA-163816771-1');
-    ReactGA.pageview('/homepage');
+    ReactGA.pageview('/');
+    ReactGA.pageview(window.location.pathname + window.location.search);
+    ReactGA.pageview('/#/issue_9');
+
 }
 
 class App extends Component {
