@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Router, Route, HashRouter } from 'react-router-dom';
+import ReactGA from 'react-ga';
 
 import './components/css/style.css'
 
@@ -18,6 +19,11 @@ import Mag004 from './components/PastMags/Mag004';
 import Mag003 from './components/PastMags/Mag003';
 import Mag002 from './components/PastMags/Mag002';
 import Mag001 from './components/PastMags/Mag001';
+
+function initializeReactGA() {
+    ReactGA.initialize('UA-163816771-1');
+    ReactGA.pageview('/homepage');
+}
 
 class App extends Component {
   constructor(props) {
