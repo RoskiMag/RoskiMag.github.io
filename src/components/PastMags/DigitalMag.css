@@ -16,14 +16,14 @@
   font-family: Arial;
   font-style: normal;
   font-weight: bold;
-  font-size: 22px;
+  font-size: 16px;
   color: #FC08D5;
   text-decoration: none;
   background: none;
-  padding-left: 8px;
-  padding-top: 6px;
-  padding-right: 8px;
-  padding-bottom: 4px;
+  padding-left: 6px;
+  padding-top: 4px;
+  padding-right: 6px;
+  padding-bottom: 3px;
 }
 
 .view-button {
@@ -50,7 +50,7 @@
     border: 2px solid #FC08D5;
     border-radius: 7px;
     text-align: center;
-    width: 220px;
+    width: 160px;
   }
 
   .issue9-container {
@@ -82,13 +82,14 @@
 /* this is for large screen (laptop) */
 @media screen and (min-width: 701px) {
   .view-button {
-    width: 220px;
+    width: 160px;
     margin-bottom: 20px;
   }
 
   .cover {
     width: 330px;
-    margin-top: 256px;
+    margin-top: 146px;
+    margin-bottom: 5px;
   }
 
   .issue9-container {
@@ -107,7 +108,7 @@
 
     position: absolute;
     left: 79px;
-    top: 156px;
+    top: 126px;
   }
 
   .issue-theme {
@@ -116,7 +117,7 @@
 
     position: absolute;
     left: 79px;
-    top: 176px;
+    top: 146px;
   }
 
   .issue9-container-center {
