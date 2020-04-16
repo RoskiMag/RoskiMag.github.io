@@ -63,7 +63,7 @@ body {
 /* phone screen size */
 @media screen and (max-width: 599px ) {
 	.home-intro {
-		padding-top: 50%;
+		padding-top: 35%;
 		width: 80%;
 		margin: 0 auto;
 		font-size: 31px;
