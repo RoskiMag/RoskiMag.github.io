@@ -11,11 +11,46 @@
   font-weight: normal;
 }
 
+.view-button a{
+  display: block;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  color: #FC08D5;
+  text-decoration: none;
+  background: none;
+  padding-left: 8px;
+  padding-top: 6px;
+  padding-right: 8px;
+  padding-bottom: 4px;
+}
+
+.view-button {
+  margin-top: 12px;
+  border: 2px solid #FC08D5;
+  border-radius: 7px;
+  text-align: center;
+  width: 220px;
+}
+
+.view-button a:hover{
+  background: #FC08D5;
+  color: #FFFFFF;
+}
+
 /* for smaller screens */
-@media only screen and (max-width: 800px) {
-  .mag-iframe {
-    width: 100%;
-    height: 100%;
+@media only screen and (max-width: 700px) {
+  .cover {
+    width: 70%;
+  }
+
+  .view-button {
+    margin-top: 12px;
+    border: 2px solid #FC08D5;
+    border-radius: 7px;
+    text-align: center;
+    width: 220px;
   }
 
   .issue9-container {
@@ -35,14 +70,25 @@
     font-size: 38px;
     padding-bottom: 27px;
   }
+
+  .issue9-container-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
 }
 
 /* this is for large screen (laptop) */
-@media screen and (min-width: 800px) {
-  .mag-iframe {
-    width: 710px;
-    height: 561px;
-    margin-top: 275px;
+@media screen and (min-width: 701px) {
+  .view-button {
+    width: 220px;
+    margin-bottom: 20px;
+  }
+
+  .cover {
+    width: 330px;
+    margin-top: 256px;
   }
 
   .issue9-container {
@@ -71,5 +117,12 @@
     position: absolute;
     left: 79px;
     top: 176px;
+  }
+
+  .issue9-container-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 }

@@ -6,12 +6,19 @@ export default class Mag009 extends Component {
     return (
         <div className="issue9-container">
         <span className="issue-header">ISSUE NINE</span>
-        <span className="issue-theme">Love in the Age of the Internet</span>
-          <iframe
-            className="mag-iframe"
-            src="https://drive.google.com/file/d/11TUfuVdJChjEqRDlk3IEf0nqU9rxT_ia/preview"
-            >
-          </iframe>
+        <span className="issue-theme">Love in the Time of the Internet</span>
+          <div className="issue9-container-center">
+              <a href="https://drive.google.com/file/d/11TUfuVdJChjEqRDlk3IEf0nqU9rxT_ia/view">
+              <img
+                src={require('../assets/issue_9/issue9_cover.png')}
+                className="cover"
+                />
+                </a>
+                <div className="view-button">
+                  <a href="https://drive.google.com/file/d/11TUfuVdJChjEqRDlk3IEf0nqU9rxT_ia/view">
+                  CLICK TO ENTER</a>
+                </div>
+          </div>
         </div>
     )
   }

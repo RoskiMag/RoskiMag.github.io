@@ -4,7 +4,6 @@ body .header {
   	width: 100%;
     padding-top: 0px;
     padding-left: 0px;
-    position: fixed;
 }
 
 .header ul {
@@ -19,6 +18,7 @@ body .header {
   display: block;
   text-decoration: none;
   float: right;
+  color: #000;
 }
 
 .header li a:hover {
@@ -118,7 +118,6 @@ body .header {
 
 @media screen and (min-width: 760px) {
   .header ul {
-    position: fixed;
     right: 20px;
     padding-top: 4px;
     background-color: none;
