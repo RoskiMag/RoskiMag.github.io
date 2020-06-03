@@ -4,7 +4,7 @@ import Strapi from "strapi-sdk-javascript/build/main";
 
 const strapi = new Strapi("https://rm-blog.herokuapp.com/");
 
-class Blog extends Component {
+class BlogPost extends Component {
   constructor(props) {
     super(props);
       this.state = {
@@ -24,16 +24,25 @@ class Blog extends Component {
   }
 
   render() {
+    const { params: { postIndex } } = this.props.match;
+    if( this.state.posts[postIndex] == null){
+       this.state.posts[postIndex] = {title: "temp title"};
+    }
+    var title = this.state.posts[postIndex].title;
     return (
       <div>
-        {this.state.posts.map((post, index) => (
-          <h5 key={index}>
-            <Link to={`/blog/${index}/${post.title}`}>{post.title}</Link>
-          </h5>
-        ))}
+        <h3>hi im a blog post</h3>
+        <p>
+          <strong>Post index: </strong>
+          {postIndex}
+        </p>
+        <p>
+        <strong>Post title: </strong>
+        {title}
+      </p>
       </div>
     )
   }
 }
 
-export default Blog;
+export default BlogPost;

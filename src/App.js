@@ -10,7 +10,7 @@ import Submissions from './components/Submissions';
 import ViewSubmissions from './components/ViewSubmissions';
 import Archive from './components/Archive';
 import Blog from './components/Blog_Page';
-
+import BlogPost from './components/BlogPost';
 
 import Mag009 from './components/PastMags/Mag009';
 import Mag008 from './components/PastMags/Mag008';
@@ -45,6 +45,7 @@ class App extends Component {
               <Route path="/submissions" component={Submissions} exact />
               <Route path="/archive" component={Archive} exact />
               <Route path="/blog" component={Blog} exact />
+              <Route path="/blog/:postIndex" component={BlogPost} />
               <Route path="/issue_9" component={Mag009} exact />
               <Route path="/archive/008" component={Mag008} exact />
               <Route path="/archive/007" component={Mag007} exact />
