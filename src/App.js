@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Router, Route, HashRouter } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import ReactGA from 'react-ga';
 
 import './components/css/style.css'
@@ -9,6 +9,8 @@ import Home from './components/Home';
 import Submissions from './components/Submissions';
 import ViewSubmissions from './components/ViewSubmissions';
 import Archive from './components/Archive';
+import Blog from './components/Blog_Page';
+
 
 import Mag009 from './components/PastMags/Mag009';
 import Mag008 from './components/PastMags/Mag008';
@@ -36,12 +38,13 @@ class App extends Component {
   render() {
     return (
       <div>
-        <HashRouter basename={process.env.PUBLIC_URL}>
+        <Router basename={process.env.PUBLIC_URL}>
             <div>
               <Nav/>
               <Route path="/" component={Home} exact />
               <Route path="/submissions" component={Submissions} exact />
               <Route path="/archive" component={Archive} exact />
+              <Route path="/blog" component={Blog} exact />
               <Route path="/issue_9" component={Mag009} exact />
               <Route path="/archive/008" component={Mag008} exact />
               <Route path="/archive/007" component={Mag007} exact />
@@ -52,7 +55,7 @@ class App extends Component {
               <Route path="/archive/002" component={Mag002} exact />
               <Route path="/archive/001" component={Mag001} exact />
             </div>
-          </HashRouter>
+          </Router>
       </div>
     );
   }
