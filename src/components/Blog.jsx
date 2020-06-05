@@ -15,14 +15,16 @@ class Blog extends Component {
    }
 
    async componentDidMount() {
+     let posts;
      try {
-       const posts = await strapi.getEntries("blogposts");
+       posts = await strapi.getEntries("blogposts");
        this.setState({ posts });
      }
      catch(err) {
       alert(err);
      }
      this.state.posts = this.state.posts.reverse();
+     this.setState({ posts });
      console.log(this.state.posts);
   }
 
@@ -35,6 +37,8 @@ class Blog extends Component {
               <img src={`https://rm-blog.herokuapp.com${post.images[0].url}`} className="post-thumbnail-image"/>
               <div className="post-thumbnail-title">{post.title}</div>
             </Link>
+              <div className="post-thumbnail-blurb">{post.blurb}</div>
+              <div className="post-thumbnail-credits">by {post.author} — {post.datepublished}</div>
           </div>
         ))}
       </div>
