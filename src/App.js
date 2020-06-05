@@ -9,7 +9,7 @@ import Home from './components/Home';
 import Submissions from './components/Submissions';
 import ViewSubmissions from './components/ViewSubmissions';
 import Archive from './components/Archive';
-import Blog from './components/Blog_Page';
+import Blog from './components/Blog';
 import BlogPost from './components/BlogPost';
 
 import Mag009 from './components/PastMags/Mag009';
