@@ -32,7 +32,9 @@ class BlogPost extends Component {
     var title = this.state.posts[postIndex].title;
     return (
       <div>
-        <div className="post-middle">{title}</div>
+        <div className="post-middle">
+          <div className="post-tile-header">{title}</div>
+        </div>
       </div>
     )
   }
