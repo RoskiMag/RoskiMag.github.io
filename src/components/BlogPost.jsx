@@ -37,9 +37,11 @@ class BlogPost extends Component {
         <div className="post-middle">
           <div className="post-title-header">{thisPost.title}</div>
           <img src={thisPost.image_1_url} className="post-main-image"/>
-          <div className="post-content">
-            {thisPost.content}
-          </div>
+          <div
+            className="post-content"
+            dangerouslySetInnerHTML={{
+              __html: thisPost.content
+            }}></div>
         </div>
       </div>
     )
