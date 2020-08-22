@@ -26,7 +26,7 @@ function initializeReactGA() {
     ReactGA.initialize('UA-163816771-1');
     ReactGA.pageview('/');
     ReactGA.pageview(window.location.pathname + window.location.search);
-    ReactGA.pageview('/#/issue_9');
+    ReactGA.pageview('/issue_9');
 }
 
 class App extends Component {
@@ -41,7 +41,7 @@ class App extends Component {
         <Router basename={process.env.PUBLIC_URL}>
             <div>
               <Nav/>
-              <Route path="/" component={Home} exact />
+              <Route path="/*" component={Home} exact />
               <Route path="/submissions" component={Submissions} exact />
               <Route path="/archive" component={Archive} exact />
               <Route path="/blog" component={Blog} exact />
