@@ -1,9 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
 import './css/Archive.css';
-import Strapi from "strapi-sdk-javascript/build/main";
-
-const strapi = new Strapi("https://rm-blog.herokuapp.com/");
 
 export default class Archive extends Component {
   mouseOverLink() {
