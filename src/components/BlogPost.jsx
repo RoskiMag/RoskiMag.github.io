@@ -15,6 +15,7 @@ class BlogPost extends Component {
    async componentDidMount() {
      try {
        const posts = await strapi.getEntries("blogposts");
+       posts.reverse();
        this.setState({ posts });
      }
      catch(err) {
@@ -31,15 +32,7 @@ class BlogPost extends Component {
     var title = this.state.posts[postIndex].title;
     return (
       <div>
-        <h3>hi im a blog post</h3>
-        <p>
-          <strong>Post index: </strong>
-          {postIndex}
-        </p>
-        <p>
-        <strong>Post title: </strong>
         {title}
-      </p>
       </div>
     )
   }

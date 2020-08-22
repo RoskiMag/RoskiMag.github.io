@@ -34,11 +34,11 @@ class Blog extends Component {
         {this.state.posts.map((post, index) => (
           <div className="post-thumbnail" key={index}>
             <Link to={`/blog/${index}/${post.title}`}>
-              <img src={`https://rm-blog.herokuapp.com${post.images[0].url}`} className="post-thumbnail-image"/>
+              <img src={post.image_1_url} className="post-thumbnail-image"/>
               <div className="post-thumbnail-title">{post.title}</div>
             </Link>
               <div className="post-thumbnail-blurb">{post.blurb}</div>
-              <div className="post-thumbnail-credits">by {post.author} — {post.datepublished}</div>
+              <div className="post-thumbnail-credits">by {post.author} — {post.date_published}</div>
           </div>
         ))}
       </div>
