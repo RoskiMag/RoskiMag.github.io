@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { Router, Route, HashRouter } from 'react-router-dom';
 import ReactGA from 'react-ga';
 
 import './components/css/style.css'
@@ -38,10 +38,10 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Router basename={process.env.PUBLIC_URL}>
+        <HashRouter basename={process.env.PUBLIC_URL}>
             <div>
               <Nav/>
-              <Route path="/*" component={Home} exact />
+              <Route path="/" component={Home} exact />
               <Route path="/submissions" component={Submissions} exact />
               <Route path="/archive" component={Archive} exact />
               <Route path="/blog" component={Blog} exact />
@@ -56,7 +56,7 @@ class App extends Component {
               <Route path="/archive/002" component={Mag002} exact />
               <Route path="/archive/001" component={Mag001} exact />
             </div>
-          </Router>
+          </HashRouter>
       </div>
     );
   }
