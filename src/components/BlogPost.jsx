@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
+import '../components/css/BlogPost.css'
+
 import Strapi from "strapi-sdk-javascript/build/main";
 
 const strapi = new Strapi("https://rm-blog.herokuapp.com/");
@@ -29,11 +31,15 @@ class BlogPost extends Component {
     if( this.state.posts[postIndex] == null){
        this.state.posts[postIndex] = {title: "temp title"};
     }
-    var title = this.state.posts[postIndex].title;
+    const thisPost = this.state.posts[postIndex];
     return (
       <div>
         <div className="post-middle">
-          <div className="post-tile-header">{title}</div>
+          <div className="post-title-header">{thisPost.title}</div>
+          <img src={thisPost.image_1_url} className="post-main-image"/>
+          <div className="post-content">
+            {thisPost.content}
+          </div>
         </div>
       </div>
     )

@@ -1,0 +1,33 @@
+.post-title-header {
+  font-family: Times;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 83px;
+  text-align: center;
+}
+
+.post-middle {
+  width: 57%;
+  padding-top: 120px;
+  padding-left: 3%;
+  padding-right: 3%;
+  margin: 0 auto;
+}
+
+.post-main-image {
+  object-fit: cover;
+  width: 100%;
+  height: 441px;
+  padding-top: 50px;
+}
+
+.post-content {
+  padding-top: 47px;
+  font-family: Times;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 133%;
+  padding-bottom: 300px;
+}
