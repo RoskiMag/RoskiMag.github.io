@@ -7,8 +7,13 @@
   text-align: center;
 }
 
+/**
+.post-page {
+  display: flex;
+}*/
+
 .post-middle {
-  width: 57%;
+  width: 56%;
   padding-top: 120px;
   padding-left: 3%;
   padding-right: 3%;

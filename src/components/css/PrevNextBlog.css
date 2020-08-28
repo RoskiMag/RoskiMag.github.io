@@ -1,0 +1,28 @@
+.prev-next-container {
+  height: 100%;
+  position: fixed;
+  width: 21%;
+  right: 0px;
+  top: 120px;
+}
+
+.pn-content {
+ margin-top: 50%;
+}
+
+.pn-text {
+  font-family: Times New Roman;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  width: 150px;
+  margin-left: 16%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.arrow-image {
+  width: 150px;
+  margin-left: 16%;
+}

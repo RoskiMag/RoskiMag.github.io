@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
+import PrevNextBlog from './PrevNextBlog.jsx';
 import '../components/css/BlogPost.css'
 
 import Strapi from "strapi-sdk-javascript/build/main";
@@ -33,7 +34,8 @@ class BlogPost extends Component {
     }
     const thisPost = this.state.posts[postIndex];
     return (
-      <div>
+      <div className="post-page">
+      <PrevNextBlog/>
         <div className="post-middle">
           <div className="post-title-header">{thisPost.title}</div>
           <img src={thisPost.image_1_url} className="post-main-image"/>
@@ -43,6 +45,7 @@ class BlogPost extends Component {
               __html: thisPost.content
             }}></div>
         </div>
+
       </div>
     )
   }
