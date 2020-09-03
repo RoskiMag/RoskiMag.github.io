@@ -11,15 +11,15 @@
 }
 
 .pn-text {
-  font-family: Times New Roman;
+  font-family: Times;
   font-style: italic;
   font-weight: normal;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: 20px;
+  line-height: 24px;
   width: 150px;
   margin-left: 16%;
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 16px;
 }
 
 .arrow-image {

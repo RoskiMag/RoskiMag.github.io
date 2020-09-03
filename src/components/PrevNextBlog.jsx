@@ -14,14 +14,18 @@ export default class PrevNextBlog extends Component {
     return (
       <div className="prev-next-container">
         <div className="pn-content">
-          <img src={leftArrow} alt="previous-post" className="arrow-image" />
-          <div className="pn-text">
-            Title of previous post
-          </div>
-          <img src={rightArrow} alt="previous-post" className="arrow-image" />
-          <div className="pn-text">
-            Title of next post
-          </div>
+          <Link to={this.props.prev_link}>
+            <img src={leftArrow} alt="previous-post" className="arrow-image" />
+            <div className="pn-text">
+              {this.props.prev_title}
+            </div>
+          </Link>
+          <Link to={this.props.next_link}>
+            <img src={rightArrow} alt="previous-post" className="arrow-image" />
+            <div className="pn-text">
+              {this.props.next_title}
+            </div>
+          </Link>
         </div>
       </div>
     )

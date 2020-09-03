@@ -24,7 +24,6 @@ class BlogPost extends Component {
      catch(err) {
       alert(err);
      }
-     console.log(this.state.posts);
   }
 
   render() {
@@ -33,9 +32,40 @@ class BlogPost extends Component {
        this.state.posts[postIndex] = {title: "temp title"};
     }
     const thisPost = this.state.posts[postIndex];
+    let prev_link = "";
+    let prev_title = "";
+    let next_link = "";
+    let next_title = "";
+
+    if( postIndex == 0 ){
+      prev_title = this.state.posts[this.state.posts.length - 1].title;
+      prev_link = `/blog/${this.state.posts.length - 1}/${prev_title}`
+    }else{
+      if( this.state.posts[Number(postIndex) - 1] == null){
+         prev_title = "";
+      }else{
+        prev_title = this.state.posts[Number(postIndex) - 1].title}
+        prev_link = `/blog/${Number(postIndex) - 1}/${prev_title}`
+    }
+    if( postIndex == this.state.posts.length - 1 ){
+      if( this.state.posts[0] == null){
+         next_title = "";
+      }else{
+        next_title = this.state.posts[0].title;
+        next_link = `/blog/${0}/${next_title}`
+      }
+    }else{
+      next_title = this.state.posts[Number(postIndex) + 1].title;
+      next_link = `/blog/${Number(postIndex) + 1}/${next_title}`
+    }
     return (
       <div className="post-page">
-      <PrevNextBlog/>
+      <PrevNextBlog
+        prev_link={prev_link}
+        prev_title={prev_title}
+        next_link={next_link}
+        next_title={next_title}
+      />
         <div className="post-middle">
           <div className="post-title-header">{thisPost.title}</div>
           <img src={thisPost.image_1_url} className="post-main-image"/>
