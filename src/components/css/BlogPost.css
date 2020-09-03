@@ -12,9 +12,23 @@
   display: flex;
 }*/
 
+.tags-nav {
+  font-family: Arial;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 23px;;
+  color: #FC08D5;
+  padding-top: 130px;
+  padding-left: 130px;
+  position: fixed;
+}
+.tags-nav:hover {
+  text-decoration: underline;
+}
+
 .post-middle {
   width: 56%;
-  padding-top: 120px;
+  padding-top: 130px;
   padding-left: 3%;
   padding-right: 3%;
   margin: 0 auto;

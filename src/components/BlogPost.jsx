@@ -60,6 +60,14 @@ class BlogPost extends Component {
     }
     return (
       <div className="post-page">
+      <div className="tags-nav">
+      <Link to="/blog">
+        ←ALL POSTS
+      </Link>
+      </div>
+      <div className="post-info-sidebar">
+
+      </div>
       <PrevNextBlog
         prev_link={prev_link}
         prev_title={prev_title}
