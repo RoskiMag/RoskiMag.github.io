@@ -11,7 +11,7 @@
 }
 
 .pn-content {
- margin-top: 50%;
+ margin-top: 0;
 }
 
 .pn-text {
@@ -29,4 +29,38 @@
 .arrow-image {
   width: 150px;
   margin-left: 16%;
+}
+
+/** mobile styles **/
+@media only screen and (max-width: 600px) {
+  .prev-next-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    top: 0;
+    padding: 5%;
+    justify-content: space-between;
+  }
+
+  .pn-content {
+   margin-top: 0;
+   width: 100%;
+   display: flex;
+  }
+
+  .pn-text {
+    font-size: 12px;
+    line-height: 12px;
+    padding-bottom: 16px;
+    margin-left: 0;
+  }
+
+  .arrow-image {
+    width: 80px;
+    margin-left: 0;
+  }
+
+  .right {
+    text-align: right;
+  }
 }

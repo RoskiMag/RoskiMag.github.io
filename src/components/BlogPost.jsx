@@ -65,12 +65,7 @@ class BlogPost extends Component {
         ←ALL POSTS
       </Link>
       </div>
-      <PrevNextBlog
-        prev_link={prev_link}
-        prev_title={prev_title}
-        next_link={next_link}
-        next_title={next_title}
-      />
+
         <div className="post-middle">
           <div className="post-title-header">{thisPost.title}</div>
           <img src={thisPost.image_1_url} className="post-main-image"/>
@@ -80,6 +75,13 @@ class BlogPost extends Component {
               __html: thisPost.content
             }}></div>
         </div>
+
+        <PrevNextBlog
+          prev_link={prev_link}
+          prev_title={prev_title}
+          next_link={next_link}
+          next_title={next_title}
+        />
 
       </div>
     )

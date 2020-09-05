@@ -11,6 +11,8 @@ body a {
   text-decoration: none;
 }
 
+
+
 /** styles for large screens (tablets, laptops)**/
 .post-thumbnail {
   padding: 1.5%;
@@ -19,7 +21,7 @@ body a {
 
 .post-thumbnail-title {
   padding-top: 30px;
-  font-family: Times New Roman;
+  font-family: Times;
   font-style: italic;
   font-weight: 100;
   font-size: 24px;
@@ -57,4 +59,19 @@ body a {
   font-size: 12px;
   padding-top: 14px;
   font-family: Arial;
+}
+
+/** styles for smol screens **/
+@media screen and (max-width: 768px) {
+  .post-thumbnail {
+    width: 48%;
+  }
+}
+
+/** styles for smol screens **/
+@media screen and (max-width: 500px) {
+  .post-thumbnail {
+    width: 96%;
+    padding-bottom: 20px;
+  }
 }
