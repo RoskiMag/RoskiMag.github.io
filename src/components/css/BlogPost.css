@@ -12,18 +12,22 @@
   display: flex;
 }*/
 
-.tags-nav {
+.back {
   font-family: Arial;
   font-style: normal;
   font-size: 20px;
   line-height: 23px;;
   color: #FC08D5;
-  padding-top: 130px;
-  padding-left: 130px;
+  margin-top: 130px;
+  margin-left: 130px;
   position: fixed;
 }
-.tags-nav:hover {
+.back:hover {
   text-decoration: underline;
+}
+
+.back a {
+  color: #FC08D5;
 }
 
 .post-middle {

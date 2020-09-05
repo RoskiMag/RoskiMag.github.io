@@ -6,6 +6,10 @@
   top: 120px;
 }
 
+.prev-next-container a {
+  color: black;
+}
+
 .pn-content {
  margin-top: 50%;
 }

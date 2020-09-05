@@ -25,7 +25,7 @@ export default class Nav extends Component {
           </li>
 
           <li>
-            <div className = "link-padding"><a href="https://roskimag.home.blog" target="_blank">BLOG</a></div>
+            <div className = "link-padding"><a href="/#/blog">BLOG</a></div>
           </li>
         </ul>
 

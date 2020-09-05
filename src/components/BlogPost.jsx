@@ -29,7 +29,7 @@ class BlogPost extends Component {
   render() {
     const { params: { postIndex } } = this.props.match;
     if( this.state.posts[postIndex] == null){
-       this.state.posts[postIndex] = {title: "temp title"};
+       this.state.posts[postIndex] = {title: "loading content..."};
     }
     const thisPost = this.state.posts[postIndex];
     let prev_link = "";
@@ -60,13 +60,10 @@ class BlogPost extends Component {
     }
     return (
       <div className="post-page">
-      <div className="tags-nav">
+      <div className="back">
       <Link to="/blog">
         ←ALL POSTS
       </Link>
-      </div>
-      <div className="post-info-sidebar">
-
       </div>
       <PrevNextBlog
         prev_link={prev_link}
