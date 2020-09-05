@@ -5,6 +5,7 @@
   padding-right: 3%;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 body a {
