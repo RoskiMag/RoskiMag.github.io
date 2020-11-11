@@ -1,0 +1,91 @@
+.post-title-header {
+  font-family: Times;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 83px;
+  text-align: center;
+}
+
+.back {
+  font-family: Arial;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 23px;;
+  color: #FC08D5;
+  margin-top: 130px;
+  margin-left: 130px;
+  position: fixed;
+}
+.back:hover {
+  text-decoration: underline;
+}
+
+.back a {
+  color: #FC08D5;
+}
+
+.post-middle {
+  width: 56%;
+  padding-top: 130px;
+  padding-left: 3%;
+  padding-right: 3%;
+  margin: 0 auto;
+}
+
+.post-main-image {
+  object-fit: cover;
+  width: 100%;
+  height: 441px;
+  padding-top: 50px;
+}
+
+.post-image {
+  object-fit: cover;
+  width: 100%;
+  height: 441px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.post-content {
+  padding-top: 47px;
+  font-family: Times;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  padding-bottom: 200px;
+}
+
+/** mobile styles **/
+@media only screen and (max-width: 600px) {
+  .back {
+    font-size: 12px;
+    color: #FC08D5;
+    margin-top: 12px;
+    margin-left: 5%;
+    position: absolute;
+  }
+
+  .post-middle {
+    width: 100%;
+    padding-top: 35px;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 0 auto;
+  }
+
+  .post-title-header {
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  .post-content {
+    padding-bottom: 10px;
+  }
+
+  .post-main-image {
+    padding-top: 47px;
+    height: 200px;
+  }
+}

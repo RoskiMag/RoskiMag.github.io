@@ -16,7 +16,7 @@ body .header {
   font-weight: bolder;
   font-size: 21px;
   display: block;
-  text-decoration: none;
+  border-bottom: 5px solid #FFF4F4;
   float: right;
   color: #000;
 }
