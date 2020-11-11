@@ -4,10 +4,10 @@ import './DigitalMag.css';
 export default class Mag010 extends Component {
   render() {
     return (
-        <div className="issue10-container">
+        <div className="issue9-container">
         <span className="issue-header">ISSUE X</span>
         <span className="issue-theme">the digital issue</span>
-          <div className="issue10-container-center">
+          <div className="issue9-container-center">
               <a
                 target="_blank"
                 href="https://www.roskimag.com/#/">
