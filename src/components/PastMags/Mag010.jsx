@@ -10,7 +10,7 @@ export default class Mag010 extends Component {
           <div className="issue10-container-center">
               <a
                 target="_blank"
-                href="https://drive.google.com/file/d/19AxXmVfQS6inX7H8DuIUVL-cQmaqduNF/view">
+                href="https://www.roskimag.com/#/">
               <img
                 src={require('../assets/issue_10/issue_10_cover.png')}
                 className="cover"
