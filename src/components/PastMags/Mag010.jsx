@@ -10,7 +10,7 @@ export default class Mag010 extends Component {
           <div className="issue9-container-center">
               <a
                 target="_blank"
-                href="https://www.roskimag.com/#/">
+                href="https://drive.google.com/file/d/1N8_FwAi7CrG2UIyyQPhRr5FFp39ftD4x/view?usp=sharing">
               <img
                 src={require('../assets/issue_10/issue_10_cover.png')}
                 className="cover"
@@ -19,8 +19,8 @@ export default class Mag010 extends Component {
                 <div className="view-button">
                   <a
                     target="_blank"
-                    href="https://www.roskimag.com/#/">
-                  CLICK TO ENTER</a>
+                    href="https://drive.google.com/file/d/1N8_FwAi7CrG2UIyyQPhRr5FFp39ftD4x/view?usp=sharing">
+                  VIEW ISSUE X</a>
                 </div>
           </div>
         </div>
