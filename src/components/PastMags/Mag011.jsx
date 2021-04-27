@@ -19,7 +19,7 @@ export default class Mag011 extends Component {
                 <div className="view-button">
                   <a
                     target="_blank"
-                    href="https://drive.google.com/file/d/1N8_FwAi7CrG2UIyyQPhRr5FFp39ftD4x/view?usp=sharing">
+                    href="https://drive.google.com/file/d/1YnZVL9yGuAXe9-hVTt7KF-2mTLOr84By/view?usp=sharing">
                   VIEW ISSUE 11</a>
                 </div>
           </div>
