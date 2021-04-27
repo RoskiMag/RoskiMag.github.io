@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
 import './DigitalMag.css';
 
-export default class Mag010 extends Component {
+export default class Mag011 extends Component {
   render() {
     return (
         <div className="issue9-container">
-        <span className="issue-header">ISSUE X</span>
-        <span className="issue-theme">the digital issue</span>
+        <span className="issue-header">ISSUE 11</span>
+        <span className="issue-theme">metamorphosis</span>
           <div className="issue9-container-center">
               <a
                 target="_blank"
