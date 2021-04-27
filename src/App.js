@@ -12,6 +12,7 @@ import Archive from './components/Archive';
 import Blog from './components/Blog';
 import BlogPost from './components/BlogPost';
 
+import Mag011 from './components/PastMags/Mag011';
 import Mag010 from './components/PastMags/Mag010';
 import Mag009 from './components/PastMags/Mag009';
 import Mag008 from './components/PastMags/Mag008';
@@ -27,7 +28,7 @@ function initializeReactGA() {
     ReactGA.initialize('UA-163816771-1');
     ReactGA.pageview('/');
     ReactGA.pageview(window.location.pathname + window.location.search);
-    ReactGA.pageview('/issue_10');
+    ReactGA.pageview('/issue_11');
 }
 
 class App extends Component {
