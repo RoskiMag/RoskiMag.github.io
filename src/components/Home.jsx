@@ -15,7 +15,7 @@ const Home = () => {
 				</div>
 				<div className="issue-button">
 					<a href="https://www.roskimag.com/#/submissions" target="_blank">
-					SUBMIT YOUR WORK
+					SUBMIT HERE
 					</a>
 				</div>
 				<div className="footer-container">
