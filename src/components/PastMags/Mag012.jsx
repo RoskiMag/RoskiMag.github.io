@@ -23,7 +23,7 @@ import img19 from '../assets/issue_12/019.jpg'
 import img20 from '../assets/issue_12/020.jpg'
 import img21 from '../assets/issue_12/021.jpg'
 
-export default class Mag018 extends Component {
+export default class Mag012 extends Component {
   render() {
     return (
       <div className="image-container">
