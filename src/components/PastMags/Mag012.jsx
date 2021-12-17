@@ -52,6 +52,3 @@ export default class Mag012 extends Component {
     )
   }
 }
-© 2021 GitHub, Inc.
-Terms
-Privacy
