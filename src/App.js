@@ -49,7 +49,7 @@ class App extends Component {
               <Route path="/archive" component={Archive} exact />
               <Route path="/blog" component={Blog} exact />
               <Route path="/blog/:postIndex" component={BlogPost} />
-              <Route path="/archive/012" component={Mag012} exact />
+              <Route path="/issue_12" component={Mag012} exact />
               <Route path="/issue_11" component={Mag011} exact />
               <Route path="/issue_10" component={Mag010} exact />
               <Route path="/issue_9" component={Mag009} exact />
