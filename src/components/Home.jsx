@@ -13,11 +13,19 @@ const Home = () => {
 				<div className="home-intro">
 					Roski Mag is a student run publication at the University of Southern California. We showcase student art and design work.
 				</div>
+				
 				<div className="issue-button">
+					<a href="https://www.roskimag.com/#/submissions">
+					SUBMIT HERE
+					</a>
+				</div>
+				
+				<!-- <div className="issue-button">
 					<a href="https://roskimag.typeform.com/to/JWhYBH6m" target="_blank">
 					APPLY FOR S22
 					</a>
-				</div>
+				</div> -->
+		
 				<div className="footer-container">
 					<a href="https://www.facebook.com/roskimag/" target="_blank">
 					<img src={facebookIcon} className="icon"/>
