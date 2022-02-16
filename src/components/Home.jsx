@@ -20,11 +20,6 @@ const Home = () => {
 					</a>
 				</div>
 				
-				<!-- <div className="issue-button">
-					<a href="https://roskimag.typeform.com/to/JWhYBH6m" target="_blank">
-					APPLY FOR S22
-					</a>
-				</div> -->
 		
 				<div className="footer-container">
 					<a href="https://www.facebook.com/roskimag/" target="_blank">
