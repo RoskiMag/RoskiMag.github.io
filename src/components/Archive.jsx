@@ -16,6 +16,10 @@ export default class Archive extends Component {
       <div className="mag-container">
 
      <div className="link-container">
+        <Link to="/issue_13"><a className="mag">13</a></Link>
+      </div>
+      
+      <div className="link-container">
         <Link to="/issue_12"><a className="mag">12</a></Link>
       </div>
       
