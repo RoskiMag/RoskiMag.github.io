@@ -15,8 +15,8 @@ const Home = () => {
 				</div>
 				
 				<div className="issue-button">
-					<a href="https://www.roskimag.com/#/issue_13">
-					READ ISSUE 13
+					<a href="https://roskimag.typeform.com/to/lPhG7I97" target="_blank">
+					APPLY FOR FALL '22
 					</a>
 				</div>
 				
