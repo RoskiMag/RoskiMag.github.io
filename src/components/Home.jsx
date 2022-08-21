@@ -16,7 +16,7 @@ const Home = () => {
 				
 				<div className="issue-button">
 					<a href="https://roskimag.typeform.com/to/lPhG7I97" target="_blank">
-					APPLY FOR FALL '22
+					APPLY TO JOIN
 					</a>
 				</div>
 				
