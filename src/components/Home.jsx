@@ -15,7 +15,7 @@ const Home = () => {
 				</div>
 				
 				<div className="issue-button">
-					<a href="https://roskimag.typeform.com/to/lPhG7I97" target="_blank">
+					<a href="https://tripetto.app/run/2GOC0OWOIB" target="_blank">
 					APPLY TO JOIN
 					</a>
 				</div>
