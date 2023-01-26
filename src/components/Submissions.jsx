@@ -6,7 +6,7 @@ import firebase from './Firebase';
 export default class Submissions extends Component {
 	constructor(props) {
 		super(props);
-		this.ref = firebase.firestore().collection('submissions-fa22');
+		this.ref = firebase.firestore().collection('submissions-sp23');
 		this.state = {
 			name: '', title: '', email: '', medium: '', year: '', dateCompleted: '', school: '', websiteLink: '', artistStatement: '', link: ''
 		};
