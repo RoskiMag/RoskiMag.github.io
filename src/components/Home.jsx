@@ -15,8 +15,8 @@ const Home = () => {
 				</div>
 				
 				<div className="issue-button">
-					<a target="_blank" href="https://tripetto.app/run/W028854P2G">
-					APPLY FOR S23
+					<a href="https://www.roskimag.com/#/submissions">
+					SUBMIT HERE
 					</a>
 				</div>
 				
