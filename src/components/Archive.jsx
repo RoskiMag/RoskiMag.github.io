@@ -14,7 +14,11 @@ export default class Archive extends Component {
   render() {
     return (
       <div className="mag-container">
-      
+
+      <div className="link-container">
+        <Link to="/issue_16"><a className="mag">16</a></Link>
+      </div>
+        
       <div className="link-container">
         <Link to="/issue_15"><a className="mag">15</a></Link>
       </div>
