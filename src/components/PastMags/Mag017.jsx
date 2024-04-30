@@ -26,12 +26,12 @@ import img22 from '../assets/issue_17/022.jpg'
 import img23 from '../assets/issue_17/023.jpg'
 import img24 from '../assets/issue_17/024.jpg'
 import img25 from '../assets/issue_17/025.jpg'
-import img25 from '../assets/issue_17/026.jpg'
-import img25 from '../assets/issue_17/027.jpg'
-import img25 from '../assets/issue_17/028.jpg'
-import img25 from '../assets/issue_17/029.jpg'
-import img25 from '../assets/issue_17/030.jpg'
-import img25 from '../assets/issue_17/031.jpg'
+import img26 from '../assets/issue_17/026.jpg'
+import img27 from '../assets/issue_17/027.jpg'
+import img28 from '../assets/issue_17/028.jpg'
+import img29 from '../assets/issue_17/029.jpg'
+import img30 from '../assets/issue_17/030.jpg'
+import img31 from '../assets/issue_17/031.jpg'
 
 export default class Mag016 extends Component {
   render() {
@@ -62,6 +62,12 @@ export default class Mag016 extends Component {
         <img src={img23} className="image"></img>
         <img src={img24} className="image"></img>
         <img src={img25} className="image"></img>
+        <img src={img26} className="image"></img>
+        <img src={img27} className="image"></img>
+        <img src={img28} className="image"></img>
+        <img src={img29} className="image"></img>
+        <img src={img30} className="image"></img>
+        <img src={img31} className="image"></img>
       </div>
     )
   }
