@@ -15,8 +15,8 @@ const Home = () => {
 				</div>
 				
 				<div className="issue-button">
-					<a href="https://www.roskimag.com/#/issue_16">
-					READ ISSUE 16 HERE
+					<a href="https://www.roskimag.com/#/issue_17">
+					READ ISSUE 17 HERE
 					</a>
 				</div>
 				
