@@ -12,6 +12,7 @@ import Archive from './components/Archive';
 import Blog from './components/Blog';
 import BlogPost from './components/BlogPost';
 
+import Mag017 from './components/PastMags/Mag017';
 import Mag016 from './components/PastMags/Mag016';
 import Mag015 from './components/PastMags/Mag015';
 import Mag014 from './components/PastMags/Mag014';
