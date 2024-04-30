@@ -33,7 +33,8 @@ import img29 from '../assets/issue_17/029.jpg'
 import img30 from '../assets/issue_17/030.jpg'
 import img31 from '../assets/issue_17/031.jpg'
 
-export default class Mag016 extends Component {
+
+export default class Mag015 extends Component {
   render() {
     return (
       <div className="image-container">
