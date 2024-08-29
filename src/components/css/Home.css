@@ -103,7 +103,7 @@ body {
 
 	.issue-button {
 		position: absolute;
-		top: 90%;
+		top: 100%;
 		left: 50%;
 		margin: -130px 0 0 -90px;
 	}
