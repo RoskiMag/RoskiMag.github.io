@@ -24,7 +24,27 @@ import img20 from '../assets/issue_19/020.jpg'
 import img21 from '../assets/issue_19/021.jpg'
 import img22 from '../assets/issue_19/022.jpg'
 import img23 from '../assets/issue_19/023.jpg'
-
+import img24 from '../assets/issue_19/024.jpg'
+import img25 from '../assets/issue_19/025.jpg'
+import img26 from '../assets/issue_19/026.jpg'
+import img27 from '../assets/issue_19/027.jpg'
+import img28 from '../assets/issue_19/028.jpg'
+import img29 from '../assets/issue_19/029.jpg'
+import img30 from '../assets/issue_19/030.jpg'
+import img31 from '../assets/issue_19/031.jpg'
+import img32 from '../assets/issue_19/032.jpg'
+import img33 from '../assets/issue_19/033.jpg'
+import img34 from '../assets/issue_19/034.jpg'
+import img35 from '../assets/issue_19/035.jpg'
+import img36 from '../assets/issue_19/036.jpg'
+import img37 from '../assets/issue_19/037.jpg'
+import img38 from '../assets/issue_19/038.jpg'
+import img39 from '../assets/issue_19/039.jpg'
+import img40 from '../assets/issue_19/040.jpg'
+import img41 from '../assets/issue_19/041.jpg'
+import img42 from '../assets/issue_19/042.jpg'
+import img43 from '../assets/issue_19/043.jpg'
+import img44 from '../assets/issue_19/044.jpg'
 
 
 export default class Mag015 extends Component {
@@ -54,9 +74,30 @@ export default class Mag015 extends Component {
         <img src={img21} className="image"></img>
         <img src={img22} className="image"></img>
         <img src={img23} className="image"></img>
-
+         <img src={img24} className="image"></img>
+        <img src={img25} className="image"></img>
+        <img src={img26} className="image"></img>
+        <img src={img27} className="image"></img>
+        <img src={img28} className="image"></img>
+        <img src={img29} className="image"></img>
         <img src={img30} className="image"></img>
         <img src={img31} className="image"></img>
+        <img src={img32} className="image"></img>
+        <img src={img33} className="image"></img>
+        <img src={img34} className="image"></img>
+        <img src={img35} className="image"></img>
+        <img src={img36} className="image"></img>
+        <img src={img37} className="image"></img>
+        <img src={img38} className="image"></img>
+        <img src={img39} className="image"></img>
+        <img src={img40} className="image"></img>
+        <img src={img41} className="image"></img>
+        <img src={img42} className="image"></img>
+        <img src={img43} className="image"></img>
+        <img src={img44} className="image"></img>
+      
+
+      
       </div>
     )
   }
