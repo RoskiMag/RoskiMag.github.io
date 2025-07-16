@@ -47,7 +47,7 @@ import img43 from '../assets/issue_19/043.jpg'
 import img44 from '../assets/issue_19/044.jpg'
 
 
-export default class Mag015 extends Component {
+export default class Mag019 extends Component {
   render() {
     return (
       <div className="image-container">
