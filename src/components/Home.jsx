@@ -16,7 +16,7 @@ const Home = () => {
 				
 				<div className="issue-button">
 					<a href="https://www.roskimag.com/#/submissions">
-					SUBMIT TO THE MAG
+					SUBMIT YOUR ART!
 					</a>
 				</div>
 				
