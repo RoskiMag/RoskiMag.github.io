@@ -15,8 +15,8 @@ const Home = () => {
 				</div>
 				
 				<div className="issue-button">
-					<a href="https://www.roskimag.com/#/issue_19">
-					READ ISSUE XIX
+					<a href="https://tripetto.app/run/1JN2Z6SP8R">
+					APPLY HERE
 					</a>
 				</div>
 				
