@@ -12,6 +12,7 @@ import Archive from './components/Archive';
 import Blog from './components/Blog';
 import BlogPost from './components/BlogPost';
 
+import Mag021 from './components/PastMags/Mag021';
 import Mag020 from './components/PastMags/Mag020';
 import Mag019 from './components/PastMags/Mag019';
 import Mag017 from './components/PastMags/Mag017';
@@ -56,6 +57,7 @@ class App extends Component {
               <Route path="/archive" component={Archive} exact />
               <Route path="/blog" component={Blog} exact />
               <Route path="/blog/:postIndex" component={BlogPost} />
+              <Route path="/issue_21" component={Mag021} exact />
               <Route path="/issue_20" component={Mag020} exact />
               <Route path="/issue_19" component={Mag019} exact />
               <Route path="/issue_17" component={Mag017} exact />
